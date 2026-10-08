@@ -29,7 +29,6 @@ A pixel-perfect, skeuomorphic UI component library for Lazarus/FPC inspired by D
 - `TBraunSlideSwitch` - A horizontal sliding selector.
 - `TBraunLEDIndicator` - A realistic glass dome LED with bloom/glow effects (Red, Green, Blue, etc.).
 - `TBraunLCDDisplay` - A retro-digital display panel inspired by the Braun ET66 calculator.
-- `TBraunGrillePanel` - A container panel with a seamless perforated speaker grille texture.
 - `TBraunSquareButtonGroup` - Grouped functional switches.
 - `TBraunThemeManager` - A non-visual component to control global form themes.
 
@@ -66,6 +65,16 @@ The library includes a robust `TBraunThemeManager` that allows you to change the
 
 This project is a tribute to the legendary industrial designer **Dieter Rams** and his "Less, but better" (Ten Principles for Good Design) philosophy during his tenure at Braun. 
 
+## ☕ Support the Project
+
+If you find **BraunUI** helpful and want to support its ongoing development, consider buying me a coffee or sending a tip. Any support is deeply appreciated!
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://Ko-fi.com/ainovasinusantara)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/KangOz)
+
+> **💡 Your support keeps the momentum going!**  
+> Every contribution directly fuels my passion, energy, and motivation to continuously build, maintain, and release even more useful open-source desktop applications for the developer community.
+> 
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
