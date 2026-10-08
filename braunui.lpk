@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="braunui"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="src"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="src/BraunUIReg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="BraunUIReg"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunUIUtils.pas"/>
+        <UnitName Value="BraunUIUtils"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunLEDIndicator.pas"/>
+        <UnitName Value="BraunLEDIndicator"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunRoundButton.pas"/>
+        <UnitName Value="BraunRoundButton"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunToggleSwitch.pas"/>
+        <UnitName Value="BraunToggleSwitch"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunSlideSwitch.pas"/>
+        <UnitName Value="BraunSlideSwitch"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunRockerSwitch.pas"/>
+        <UnitName Value="BraunRockerSwitch"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunFader.pas"/>
+        <UnitName Value="BraunFader"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunRotaryKnob.pas"/>
+        <UnitName Value="BraunRotaryKnob"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunRotarySelector.pas"/>
+        <UnitName Value="BraunRotarySelector"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunGauge.pas"/>
+        <UnitName Value="BraunGauge"/>
+      </Item>
+      <Item>
+        <Filename Value="src/BraunSquareButtonGroup.pas"/>
+        <UnitName Value="BraunSquareButtonGroup"/>
+      </Item>
+      <Item>
+        <Filename Value="src/braunlcddisplay.pas"/>
+        <UnitName Value="BraunLCDDisplay"/>
+      </Item>
+      <Item>
+        <Filename Value="src/braunlatchingbutton.pas"/>
+        <UnitName Value="BraunLatchingButton"/>
+      </Item>
+      <Item>
+        <Filename Value="src/braunthememanager.pas"/>
+        <UnitName Value="braunthememanager"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="BGRABitmapPack"/>
+      </Item>
+      <Item>
+        <PackageName Value="IDEIntf"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
